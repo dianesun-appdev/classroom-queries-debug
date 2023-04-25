@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+
   get("/", { :controller => "departments", :action => "index" })
+  
   # Routes for the Department resource:
           
   # READ
